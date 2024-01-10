@@ -1,0 +1,8 @@
+// Import variables first if they are used in other partials
+@import "variables";
+
+
+// Import other partials
+@import "header";
+@import "navigation";
+@import "footer";

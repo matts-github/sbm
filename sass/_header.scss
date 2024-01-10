@@ -1,0 +1,44 @@
+// .site-header {
+//     background-color: #000;
+//     height: 15rem;
+// }
+// .inner {
+//     height: 14rem;
+// }
+
+// .blog .site-nav {
+//     top: -411px;
+// }
+
+.site-header-content {
+    display: grid;
+    justify-content: left;
+}
+
+.nav li a {
+  color: #000;
+}
+
+// Desktop only
+
+@media (min-width: 900px) {
+    .blog .site-nav {
+      top: -200px;
+      justify-content: center;
+      left: 40px;
+    }
+
+    .site-header {
+      background-color: #fff;
+      color: #000;
+    }
+  }
+
+  // Bigger desktop
+@media (min-width: 1900px) {
+    .blog .site-nav {
+        top: -240px;
+        left: 50px;
+    }
+}
+  

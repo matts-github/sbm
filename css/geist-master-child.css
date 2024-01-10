@@ -1,0 +1,28 @@
+.site-header-content {
+  display: grid;
+  justify-content: left;
+}
+
+.nav li a {
+  color: #000;
+}
+
+@media (min-width: 900px) {
+  .blog .site-nav {
+    top: -200px;
+    justify-content: center;
+    left: 40px;
+  }
+  .site-header {
+    background-color: #fff;
+    color: #000;
+  }
+}
+@media (min-width: 1900px) {
+  .blog .site-nav {
+    top: -240px;
+    left: 50px;
+  }
+}
+
+/*# sourceMappingURL=geist-master-child.css.map */
