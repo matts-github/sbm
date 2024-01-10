@@ -10,6 +10,8 @@
 //     top: -411px;
 // }
 
+// All sizes
+
 .site-header-content {
     display: grid;
     justify-content: left;
@@ -26,19 +28,40 @@
       top: -200px;
       justify-content: center;
       left: 40px;
+      border-top: 1px solid #c8c8c8;
+      border-bottom: 1px solid #c8c8c8;
+      width: 206rem;
+      left: -450px;
     }
 
     .site-header {
       background-color: #fff;
       color: #000;
     }
+
+    .site-logo {
+      position: absolute;
+      left: 40px;
+      margin-top: -127px;
   }
+}
 
   // Bigger desktop
 @media (min-width: 1900px) {
     .blog .site-nav {
         top: -240px;
         left: 50px;
+        border-top: 1px solid #c8c8c8;
+        border-bottom: 1px solid #c8c8c8;
+        width: 206rem;
+        left: -450px;
+    }
+
+    .site-logo {
+      margin-top: -188px;
+      position: absolute;
+      left: 40px;
+      margin-top: -127px;
     }
 }
   
